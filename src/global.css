@@ -65,8 +65,7 @@ html {
 
 
 svg {
-  max-height: 90vh;
-  margin-bottom: 10vh;
+  max-height: 95vh;
   width: 100%;
 }
 svg path {
