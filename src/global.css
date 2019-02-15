@@ -26,7 +26,7 @@
 html {
   cursor: default;
   font-family: 'Inter UI var alt', sans-serif;
-
+  font-display: swap;
   line-height: 1.15;
   -moz-tab-size: 4;
   tab-size: 4;
