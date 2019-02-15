@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "name": "hyperapp-boilerplate",
-  "description": "Hyperapp PWA boilerplate",
+  "name": "mtl-svg-anim",
+  "description": "MTL SVG Animation",
   "author": "Alexandre Lotte",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build ./src/index.html --no-source-maps --detailed-report --no-content-hash"
+    "build": "parcel build ./src/index.html --no-source-maps --out-dir docs --public-url ./ --detailed-report --no-content-hash"
   },
   "dependencies": {
     "hyperapp": "github:jorgebucaran/hyperapp#V2"
@@ -21,7 +21,6 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "hygen": "^2.1.1",
     "parcel-bundler": "^1.11.0",
     "postcss-nested": "^4.1.1",
     "rucksack-css": "^1.0.2"
